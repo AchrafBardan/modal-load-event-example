@@ -1,7 +1,9 @@
-<Page>
+<Page loaded="navigatingTo">
     <StackLayout>
         <Label text="If text becomes green it means the loaded event came trough" textWrap="true" />
         <Label loaded="{{ labelLoadedModal }}" style="color: red;" text="label with loaded event from model" textWrap="true" />
         <Label loaded="labelLoaded" style="color: red;" text="label with loaded event" textWrap="true" />
+        <Label text="Label below will say true if modal is binded to the modelclass" textWrap="true" />
+        <Label text="{{ isBinded }}" textWrap="true" />
     </StackLayout>
 </Page>
