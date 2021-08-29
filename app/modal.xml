@@ -1,0 +1,7 @@
+<Page>
+    <StackLayout>
+        <Label text="If text becomes green it means the loaded event came trough" textWrap="true" />
+        <Label loaded="{{ labelLoadedModal }}" style="color: red;" text="label with loaded event from model" textWrap="true" />
+        <Label loaded="labelLoaded" style="color: red;" text="label with loaded event" textWrap="true" />
+    </StackLayout>
+</Page>
